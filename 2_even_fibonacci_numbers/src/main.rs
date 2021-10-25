@@ -5,8 +5,6 @@ fn main() {
     //By considering the terms in the Fibonacci sequence whose values do not exceed four million,
     // find the sum of the even-valued terms.
 
-    // Flow:
-    // 1. Generate Fibonacci series until we hit 4mil+ term.
     let mut term: u32 = 2;
     let mut prev_term: u32 = 1;
     let mut swap:u32;
